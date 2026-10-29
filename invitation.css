@@ -7,3 +7,4 @@
 .invitation-overlay.motion-enabled .letter-sheet,.invitation-overlay.motion-enabled .envelope-flap,.invitation-overlay.motion-enabled .letter-fold{will-change:transform;transition:none}.invitation-overlay.motion-enabled .wax-seal{pointer-events:none}.letter-sheet{transform-origin:50% 50%;backface-visibility:hidden}.letter-content{position:relative}.envelope-stage{transform-style:preserve-3d}.invitation-overlay.motion-enabled{transition:none}
 /* Flatten the envelope stack so the rotating flap cannot intersect the paper. */
 .envelope-stage{transform-style:flat;isolation:isolate}.envelope-back{z-index:1}.letter-sheet{z-index:2;transform-style:flat}.envelope-front{z-index:4}.envelope-flap{z-index:5;backface-visibility:hidden;transform-style:flat}.envelope-lid-back{position:absolute;z-index:0;left:0;right:0;bottom:100%;height:59%;background:linear-gradient(#314858,#48616e);clip-path:polygon(0 100%,50% 0,100% 100%);opacity:0;pointer-events:none}
+
